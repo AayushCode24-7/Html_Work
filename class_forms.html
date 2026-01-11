@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+<style>
+    body {
+        background-color: rgba(88, 207, 23, 0.714);
+    }
+</style>
+<body>
+    <h1>University Registration Form</h1>
+    Please fill in the following details:
+    <hr></hr>
+    <h1>Personal Details</h1>
+    <form>
+        <label>First Name:</label>
+        <input type="text" placeholder="First Name">
+        <br></br>
+        <label> Last Name:</label>
+        <input type="text" placeholder="Last Name">
+        <br></br>
+        <label> Date Of Birth:</label>
+        <input type="date" name="D.O.B">
+        <br></br>
+        <label>Gender:</label>
+        <br></br>
+        <input type="radio"> Male<br></br>
+        <input type="radio"> Female<br></br>
+        <input type="radio"> Others<br></br>
+
+        Upload Your Photo:<br></br>
+        <input type="file">
+        <hr></hr>
+
+        <h1>Contact Information</h1>
+        <label> Email Address:</label><input type="email" placeholder="@email.com"><br></br>
+        <label> Phone Number:</label><input type="tel" placeholder="+91"><br></br>
+
+        <label> Mailing Address:</label><br></br>
+        <textarea rows="4" cols="23"></textarea>
+
+        <hr></hr>
+        <h1>Academic Information</h1>
+        <label>Select Your Course:</label>
+        <select>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="None">None</option>
+        </select>
+        <br></br>
+        Extracurricular Activities:<br></br>
+        <input type="checkbox"> Sports<br></br>
+        <input type="checkbox"> Music & Arts<br></br>
+        <input type="checkbox"> Tech Clubs<br></br>
+        <input type="checkbox"> Volunteering<br></br>
+
+        <hr></hr>
+        <h1>Create Your Account</h1>
+
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br></br>
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br></br>
+        <label>Confirm Password:</label>
+        <input type="password" name="confirm_password">
+        <br></br>
+        <input type="checkbox" name="terms"> I agree to the Terms and Conditions.
+        <br></br>
+      <hr></hr>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
